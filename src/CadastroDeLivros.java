@@ -9,12 +9,12 @@ public class CadastroDeLivros {
         Livro livro = new Livro();
         livro.nome = "Java 8 Prático";
         livro.descricao = "Novos recursos da linguagem";
-        livro.valor = 59.90;
+        livro.adicionaValor(59.90);
         livro.ISBN = "989-85-66250-46-6";
 
         livro.autor = autor;
 
-        livro.MostrarDetalhes();
+        livro.mostrarDetalhes();
 
         Autor outroAutor = new Autor();
         outroAutor.nome = "Paulo Silveira";
@@ -24,12 +24,12 @@ public class CadastroDeLivros {
         Livro outroLivro = new Livro();
         outroLivro.nome = "Lógica de Programação";
         outroLivro.descricao = "Crie seus primeiros programas!";
-        outroLivro.valor = 59.90;
+        outroLivro.adicionaValor(59.90);
         outroLivro.ISBN = "959-65-62850-26-7";
 
         outroLivro.autor = autor;
 
-        outroLivro.MostrarDetalhes();
+        outroLivro.mostrarDetalhes();
 
 
     }
